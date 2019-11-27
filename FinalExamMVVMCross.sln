@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudentForm", "StudentForm"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForm.Core", "StudentForm.Core\StudentForm.Core.csproj", "{531DCA68-C9B9-4712-BBCA-1376E9282CF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentForm.Android", "StudentForm.Android\StudentForm.Android.csproj", "{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,19 @@ Global
 		{531DCA68-C9B9-4712-BBCA-1376E9282CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{531DCA68-C9B9-4712-BBCA-1376E9282CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{531DCA68-C9B9-4712-BBCA-1376E9282CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{531DCA68-C9B9-4712-BBCA-1376E9282CF1} = {56E26733-5CA4-4DCF-84E3-7CAE4B7ABE62}
+		{657BB663-3999-45D5-AAD9-AF3A0B2C48C8} = {56E26733-5CA4-4DCF-84E3-7CAE4B7ABE62}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C03E4FE-937C-4BD9-AA2F-8E7A32DD5411}
