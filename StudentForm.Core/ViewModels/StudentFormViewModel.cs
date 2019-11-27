@@ -12,6 +12,7 @@ namespace StudentForm.Core.ViewModels
     public class StudentFormViewModel : MvxViewModel
     {
         private readonly ICalculatorService _calculatorService;
+        private readonly ICalculatorYService _calculatorYService;
         private double _a;
         private double _b;
         private double _c;
@@ -19,9 +20,10 @@ namespace StudentForm.Core.ViewModels
         private double _x2;
         private MvxCommand _calculateCommand;
 
-        public StudentFormViewModel(ICalculatorService calculatorService)
+        public StudentFormViewModel(ICalculatorService calculatorService, ICalculatorYService calculatorYService)
         {
             _calculatorService = calculatorService;
+            _calculatorYService = calculatorYService;
         }
 
         public double a
@@ -78,7 +80,7 @@ namespace StudentForm.Core.ViewModels
         private void Recalculate()
         {
             x1 = _calculatorService.StudentFormValues(x1,x2,a,b,c);
-            x2 = _calculatorService.StudentFormValues(x1, x2, a, b, c);
+            x2 = _calculatorYService.StudentFormValues(x1, x2, a, b, c);
         }
     }
 }
